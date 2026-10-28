@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091827">
+  <meta name="description" content="音乐虫子的 The Smashing Pumpkins 乐队入门指南。在月光、天琴座与声音之间，走进一场蓝金色梦境。">
+  <title>The Smashing Pumpkins · LUNA 声音档案</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/cormorant-garamond.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=lyra-lines1">
+  <script src="script.js?v=lyra-lines1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">跳到正文</a>
+  <header class="site-header mobile-header">
+    <a class="brand" href="#home" aria-label="LUNA 声音档案，返回首页"><span class="brand-moon" aria-hidden="true">☾</span><span>LUNA <span class="brand-divider">/</span> <span class="brand-sub">SOUND ARCHIVE</span></span></a>
+    <nav aria-label="页面导航">
+      <a href="#about">乐队</a><a href="#tracks">歌曲</a><a href="#albums">专辑</a><a href="#moments">瞬间</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="approved-stage">
+        <img src="assets/selene-hamadryad-imp-hero.png" width="1536" height="1024" alt="蓝金色梦境岛上，树皮融入一位闭眼的树灵，树根旁有一只小恶魔精灵；月神、月亮与星线保持原位。">
+        <div class="stage-brand-type">☾ <span>LUNA <i>/</i> SOUND ARCHIVE</span></div>
+        <nav class="stage-nav-type" aria-label="页面导航"><a href="#about">乐队</a><a href="#tracks">歌曲</a><a href="#albums">专辑</a><a href="#moments">瞬间</a></nav>
+        <div class="stage-copy-type"><p class="stage-kicker">05 / A STRANGE LITTLE DREAM</p><h1><span class="title-the">The</span>Smashing<br>Pumpkins</h1><span class="stage-rule"></span><p class="stage-tagline">沿着声音，误入梦境。</p><a class="stage-explore-type" href="#about">开始探索 <span>→</span></a></div>
+        <button class="tree-hotspot" type="button" aria-label="唤醒树灵，阅读 Hamadryad 故事" aria-controls="tree-story-panel" aria-expanded="false"><span class="tree-eye tree-eye-left" aria-hidden="true"></span><span class="tree-eye tree-eye-right" aria-hidden="true"></span></button>
+        <details class="tree-story" id="tree-story">
+          <summary><span class="tree-story-spark" aria-hidden="true">✧</span><span>触碰古树 <small>HAMADRYAD</small></span></summary>
+          <div class="tree-story-panel" id="tree-story-panel">
+            <p class="eyebrow">THE KEEPER OF QUIET SOUNDS</p>
+            <p class="tree-quote">有些声音，连树也记得。</p>
+            <p>希腊神话中的 Hamadryads 与特定树木共生。这里的树皮面容是受神话启发的原创形象。</p>
+            <p>树根旁的小恶魔精灵是原创的月尘小灵，短角、尖耳与暖金眼睛为它的林地形态。</p>
+            <a class="text-link" href="https://www.theoi.com/Nymphe/Dryades.html" target="_blank" rel="noopener noreferrer">读一段树灵的神话 ↗</a>
+          </div>
+        </details>
+        <svg class="selene-connection" viewBox="0 0 1536 1024" aria-hidden="true" focusable="false"><path class="selene-beam" pathLength="1" d="M 946 482 Q 985 438 1014 408"></path><circle class="selene-key-glow" cx="1014" cy="408" r="12"></circle></svg>
+        <button class="selene-hotspot" type="button" aria-label="唤醒月神，让她与钥匙相连并阅读故事" aria-controls="selene-story-panel" aria-expanded="false"></button>
+        <details class="selene-story" id="selene-story">
+          <summary><span class="selene-story-spark" aria-hidden="true">☾</span><span>月神与钥匙 <small>SELENE / THE KEY</small></span></summary>
+          <div class="selene-story-panel" id="selene-story-panel">
+            <p class="eyebrow">THE KEY TO A SOUND DREAM</p>
+            <p class="tree-quote">她守着月光，也守着那扇尚未开启的门。</p>
+            <p>她是 Selene，希腊神话中的月之化身。夜色降临时，她驾着月车穿过天空，让月光落向沉睡的大地。</p>
+            <p>悬在她身旁的钥匙，是这场梦境里的原创意象：它开启通往声音记忆的门。每一首歌，都像一间被月光照亮的房间，等着旅人拾级而入。</p>
+            <p class="selene-note">钥匙属于本站的故事设定，并非 Selene 在古希腊神话中的传统象征。</p>
+            <a class="text-link" href="https://www.theoi.com/Titan/Selene.html" target="_blank" rel="noopener noreferrer">读一段 Selene 的神话 ↗</a>
+          </div>
+        </details>
+        <button class="stage-link stage-lyra" type="button" aria-label="连接天琴座星点并打开故事" aria-haspopup="dialog" aria-controls="lyra-dialog"></button>
+        <svg class="lyra-constellation" viewBox="0 0 1536 1024" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="lyra-lines" pathLength="1" d="M 1179 147 L 1218 174 L 1210 196 L 1290 229 L 1302 204 L 1218 174 M 1210 196 L 1302 204"></path><g class="lyra-points"><circle cx="1179" cy="147" r="3.5"></circle><circle cx="1218" cy="174" r="2.4"></circle><circle cx="1210" cy="196" r="2.4"></circle><circle cx="1290" cy="229" r="2.6"></circle><circle cx="1302" cy="204" r="2.5"></circle></g></svg>
+      </div>
+      <div class="hero-copy mobile-copy">
+        <p class="eyebrow">A BAND GUIDE BY 音乐虫子 <span aria-hidden="true">—</span> VOL. 01</p>
+        <h1 id="hero-title"><span class="title-the">The</span><span>Smashing</span><span>Pumpkins</span></h1>
+        <p class="hero-tagline">沿着声音，误入梦境。</p>
+        <p class="hero-description">一份私人乐队指南。<br>从几首歌开始，慢慢走进他们的声音世界。</p>
+        <a class="explore-link" href="#about">开始探索 <span aria-hidden="true">↗</span></a>
+      </div>
+      <button class="mobile-lyra" type="button" aria-haspopup="dialog" aria-controls="lyra-dialog">✧ 触碰星光 · LYRA</button>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow"><span>01</span> / ABOUT THE BAND</p><h2 id="about-title">声音的另一面</h2></div>
+      <div class="about-content"><p class="intro">温柔与噪音，<br>可以住在同一片星空里。</p><p>The Smashing Pumpkins（碎南瓜）是一支来自美国芝加哥的摇滚乐队。他们的音乐里有厚重的吉他，也有轻柔、梦幻的片刻。</p><p>这是音乐虫子的私人入门指南。这里会慢慢放入我选的歌曲、想推荐的专辑，以及某一次被声音打动的瞬间。</p><a class="text-link" href="https://www.smashingpumpkins.com/" target="_blank" rel="noopener noreferrer">前往乐队官网 <span aria-hidden="true">↗</span></a></div>
+      <aside class="about-note"><span class="note-symbol" aria-hidden="true">☾</span><p>月亮留给梦境，<br>星座留给音乐。</p><span class="small-label">A LITTLE WORLD OF SOUND</span></aside>
+    </section>
+
+    <section class="section tracks-section" id="tracks" aria-labelledby="tracks-title">
+      <div class="section-top"><div class="section-heading"><p class="eyebrow"><span>02</span> / SELECTED TRACKS</p><h2 id="tracks-title">从这几首开始</h2></div><p class="section-caption">三首歌，三个入口。<br>具体选曲，等音乐虫子亲自放进来。</p></div>
+      <div class="track-grid">
+        <article class="track-card"><div class="track-art art-moon" aria-hidden="true"><span>☾</span></div><div class="track-body"><p class="eyebrow">TRACK / 01</p><h3>第一首，待你选择</h3><p>在这里写下推荐理由，<br>或提醒听众留意一个声音。</p><span class="pending">等待一段声音</span></div></article>
+        <article class="track-card"><div class="track-art art-orbit" aria-hidden="true"><span class="orbit-shape"></span></div><div class="track-body"><p class="eyebrow">TRACK / 02</p><h3>第二首，待你选择</h3><p>可以是熟悉的旋律，<br>也可以是意想不到的另一面。</p><span class="pending">等待一段声音</span></div></article>
+        <article class="track-card"><div class="track-art art-star" aria-hidden="true"><span>✧</span></div><div class="track-body"><p class="eyebrow">TRACK / 03</p><h3>第三首，待你选择</h3><p>留一个位置，<br>给那首让你想继续听下去的歌。</p><span class="pending">等待一段声音</span></div></article>
+      </div>
+    </section>
+
+    <section class="section albums-section" id="albums" aria-labelledby="albums-title">
+      <div class="section-top"><div class="section-heading"><p class="eyebrow"><span>03</span> / FURTHER LISTENING</p><h2 id="albums-title">让声音再停留一会</h2></div><p class="section-caption">喜欢一首歌以后，<br>也许值得走进一整张专辑。</p></div>
+      <div class="album-grid"><article class="album-item"><div class="album-sleeve sleeve-one" aria-label="推荐专辑一的封面占位"><span>☾</span><small>ALBUM / 01</small></div><div><p class="eyebrow">THE NEXT CHAPTER</p><h3>第一张推荐专辑</h3><p>待音乐虫子选择。这里将放入专辑封面、推荐理由和收听入口。</p><span class="pending">待补充</span></div></article><article class="album-item"><div class="album-sleeve sleeve-two" aria-label="推荐专辑二的封面占位"><span>✧</span><small>ALBUM / 02</small></div><div><p class="eyebrow">ANOTHER SIDE</p><h3>另一种声音</h3><p>保留给第二张专辑，继续探索这支乐队的不同侧面。</p><span class="pending">待补充</span></div></article></div>
+    </section>
+
+    <section class="section moments-section" id="moments" aria-labelledby="moments-title">
+      <div class="section-heading"><p class="eyebrow"><span>04</span> / A MOMENT TO KEEP</p><h2 id="moments-title">让我反复听的那个瞬间</h2></div>
+      <div class="moment-entry"><span class="moment-mark" aria-hidden="true">“</span><p class="moment-quote">有些歌，是因为某一刻<br>才留下来的。</p><p class="moment-meta">歌曲待选 <span>·</span> 时间点待记</p><details class="moment-details"><summary>打开这段听歌笔记 <span aria-hidden="true">＋</span></summary><div><p class="draft-label">这段笔记，留给音乐虫子来写。</p><p>可以记下一个突然响起的吉他、一段人声，或者当时的生活片段。无需完整乐评，写下那个值得回来的瞬间就好。</p></div></details></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div><a class="footer-logo" href="#home">LUNA <span>/</span></a><p>入门到这里，接下来交给你的耳朵。</p></div><div class="footer-meta"><span>由音乐虫子整理 · 乐迷个人项目，非乐队官方网站</span><a href="https://www.smashingpumpkins.com/" target="_blank" rel="noopener noreferrer">THE SMASHING PUMPKINS ↗</a><a href="#home">回到星空 ↑</a></div></footer>
+
+  <dialog id="lyra-dialog" aria-labelledby="lyra-title">
+    <div class="dialog-heading"><p class="eyebrow">A HIDDEN STORY IN THE SKY</p><button class="dialog-close" type="button" aria-label="关闭天琴座故事">×</button></div><span class="dialog-star" aria-hidden="true">✧</span><p class="eyebrow">LYRA</p><h2 id="lyra-title">天琴座 · 天上的琴</h2><p>在希腊神话里，天琴座代表音乐家俄耳甫斯的里拉琴。它最明亮的恒星，是织女星 Vega。</p><blockquote>在这片梦境里，<br>我们让声音拥有自己的星座。</blockquote><p class="dialog-footnote">星座以艺术化示意呈现，位置与尺度并非精确星图。月神与天琴座的相遇，是本页面的原创设定。</p><a class="text-link" href="https://science.nasa.gov/resource/whats-up-june-2022/" target="_blank" rel="noopener noreferrer">探索天琴座 · NASA ↗</a>
+  </dialog>
+</body>
+</html>
